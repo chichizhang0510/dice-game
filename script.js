@@ -67,7 +67,5 @@ holdBtn.addEventListener("click", function () {
   if (totalScore >= 100) {
     document.querySelector(".player--active .name").textContent += " 🏆";
     disableButtons();
-  } else {
-    switchPlayer();
   }
 });
